@@ -1,4 +1,4 @@
-module module-golang-database
+module github.com/MuhammadSuryono/module-golang-database
 
 go 1.17
 

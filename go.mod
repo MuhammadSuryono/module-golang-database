@@ -6,8 +6,8 @@ require (
 	github.com/sirupsen/logrus v1.9.0
 	gorm.io/driver/mysql v1.3.6
 	gorm.io/driver/postgres v1.3.10
-	gorm.io/driver/sqlserver v1.3.2
-	gorm.io/gorm v1.23.9
+	gorm.io/driver/sqlserver v1.5.1
+	gorm.io/gorm v1.25.4
 	gorm.io/plugin/dbresolver v1.2.3
 )
 
@@ -26,7 +26,8 @@ require (
 	github.com/jackc/pgx/v4 v4.17.2 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
-	golang.org/x/crypto v0.0.0-20220919173607-35f4265a4bc0 // indirect
-	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	github.com/microsoft/go-mssqldb v1.6.0 // indirect
+	golang.org/x/crypto v0.13.0 // indirect
+	golang.org/x/sys v0.12.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 )

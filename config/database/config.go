@@ -106,7 +106,7 @@ func (configDb configOtherDatabase) CreateOtherConnection() {
 }
 
 func mysqlDsn(host, port, user, pass, dbName string) string {
-	return fmt.Sprintf("%s:%s@(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
+	return fmt.Sprintf("%s:%s@(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Asia/Jakarta",
 		user, pass, host, port, dbName)
 }
 
@@ -116,7 +116,7 @@ func sqlDsn(host, port, user, pass, dbName string) string {
 }
 
 func pgsqlDsn(host, port, user, pass, dbName string) string {
-	return fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=Asia/Shanghai",
+	return fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable TimeZone=Asia/Jakarta",
 		host, user, pass, dbName, port)
 }
 
